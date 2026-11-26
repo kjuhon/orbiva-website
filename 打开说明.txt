@@ -1,0 +1,10 @@
+Orbiva 第 23 版离线预览（macOS）
+
+1. 解压 ZIP。
+2. 打开终端，输入 cd 和一个空格，将解压后的 Orbiva 文件夹拖入终端，按回车。
+3. 运行 python3 -m http.server 8765 --bind 127.0.0.1
+4. 在浏览器打开 http://localhost:8765/
+
+产品页：http://localhost:8765/products/
+结束预览时，在终端按 Control+C。
+外部新闻链接需要联网，商务联系需要邮件应用。
